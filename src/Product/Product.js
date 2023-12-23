@@ -1,22 +1,25 @@
 import React from 'react'
-import { FaStar } from "react-icons/fa";
-
+import "./Product.css"
+import Card from '../Components/Card';
+import data from "../db/data"
 const Product = () => {
   return (
     <div className='card-container'>
-      <div className="card">
-        <img src="https://m.media-amazon.com/images/I/6125yAfsJKL._AC_UX575_.jpg" alt="Shoe" />
-        <section className="card-details">
-          <h3 className="card-title">Nike Air Monarch IV</h3>
-          <section className="card-review">
-            <FaStar /><FaStar /><FaStar /><FaStar /><FaStar />  
-          </section>
-          <section className="card-price">
-            <del>$1200</del> 200
-          </section>
-        </section>
-      </div>
-      
+  {    data.map(
+      ({ img, title, star, reviews, prevPrice, newPrice }) => (
+        <Card
+          key={Math.random()}
+          img={img}
+          title={title}
+          star={star}
+          reviews={reviews}
+          prevPrice={prevPrice}
+          newPrice={newPrice}
+        />
+      )
+    )
+      }
+   
     </div>
   )
 }

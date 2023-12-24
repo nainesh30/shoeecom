@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/shoeecom/static/css/main.2211c454.css",
+    "main.js": "/shoeecom/static/js/main.2f704a80.js",
+    "index.html": "/shoeecom/index.html",
+    "main.2211c454.css.map": "/shoeecom/static/css/main.2211c454.css.map",
+    "main.2f704a80.js.map": "/shoeecom/static/js/main.2f704a80.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.2211c454.css",
+    "static/js/main.2f704a80.js"
+  ]
+}

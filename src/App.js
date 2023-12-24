@@ -29,7 +29,6 @@ let filteredItems = data.filter(product =>product.title.toLocaleLowerCase().inde
 
   const handlebutton = (e)=>{
  setSelectedCategory(e.target.value)
- console.log(SelectedCategory);
   }
 
   const filterProduct =(data,selected,query)=>{

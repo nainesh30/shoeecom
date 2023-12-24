@@ -1,5 +1,6 @@
 import React from 'react'
 import { FaStar } from "react-icons/fa";
+import { FaShoppingBag } from "react-icons/fa";
 
 const Card = ({ img, title, star, reviews, prevPrice, newPrice }) => {
   return (
@@ -17,7 +18,8 @@ const Card = ({ img, title, star, reviews, prevPrice, newPrice }) => {
           </div>
 
           <div className="addbag">
-          <FaStar />  
+<FaShoppingBag  />
+           
           </div>
           </div>
         </div>

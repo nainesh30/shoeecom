@@ -16,7 +16,7 @@ input{
     margin: 5px;
     padding: 2px 10px;
 }
-.recomend{
-    margin: 4px 21rem;
-    margin-top: 10px;
+
+body{
+    overflow-x: hidden;
 }

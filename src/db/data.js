@@ -37,7 +37,7 @@ const data = [
   },
   {
     img: "https://m.media-amazon.com/images/I/71oEKkghg-L._AC_UX575_.jpg",
-    title: "Nike Running Shoe",
+    title: "Adidas Running Shoe",
     star: <AiFillStar className="rating-star" />,
     reviews: "(123 reviews)",
     prevPrice: "$140,00",
@@ -95,7 +95,7 @@ const data = [
 
   {
     img: "https://m.media-amazon.com/images/I/61-cBsLhJHL._AC_UY695_.jpg",
-    title: "Nike Men's Sneaker",
+    title: "Adidas Men's Sneaker",
     star: <AiFillStar className="rating-star" />,
     reviews: "(123 reviews)",
     prevPrice: "$140,00",
@@ -107,7 +107,7 @@ const data = [
 
   {
     img: "https://m.media-amazon.com/images/I/81xXDjojYKS._AC_UX575_.jpg",
-    title: "PUMA BLACK-OCE",
+    title: "Puma BLACK-OCE",
     star: <AiFillStar className="rating-star" />,
     reviews: "(123 reviews)",
     prevPrice: "$140,00",
@@ -234,7 +234,7 @@ const data = [
     reviews: "(123 reviews)",
     prevPrice: "$140,00",
     newPrice: "100",
-    company: "puma",
+    company: "Puma",
     color: "black",
     category: "heels",
   },

@@ -4,11 +4,11 @@ import { GiRunningShoe } from "react-icons/gi";
 import { CgProfile } from "react-icons/cg";
 import "./Nav.css"
 
-const Nav = () => {
+const Nav = ({query,handleinputchange}) => {
   return (
     <div className='navbar'>
       <GiRunningShoe className="shoe-logo" />
-      <input type="text" className="search-inp" placeholder="Search here" />
+      <input type="text" value={query}  onChange={handleinputchange} className="search-inp" placeholder="Search here" />
 
       <div className="icon-container">
         <a href="#"><CiHeart  className="btn-icon" /></a>

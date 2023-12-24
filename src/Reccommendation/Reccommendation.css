@@ -1,0 +1,16 @@
+.recomend{
+    position: sticky;
+top: 3.6rem;
+height: 5vh;
+background-color: white;
+margin: 0px 21rem;
+display: flex;
+align-items: center;
+padding: 30px;
+width: 100vw;
+/* margin-top: 10px; */
+}
+
+a{
+    cursor: pointer;
+}
